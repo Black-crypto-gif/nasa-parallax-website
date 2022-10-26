@@ -26,10 +26,20 @@
       <!-- Navigation End -->
       <div class="min-h-screen flex flex-col justify-evenly items-center relative">
         <img
+        sizes="(min-width:500px) 480w, 650w, 800w, 1300w"
+        srcset="./images/hero-xs.jpg 480w, ./images/hero-sm.jpg 650w,
+        ./images/hero-md.jpg 800w, ./images/hero-lg.jpg 1300w"
         class="absolute h-full w-full -z-20 object-cover object-center"
          src="./images/hero.jpg" aria-hidden="true">
-        <h1></h1>
-        <a href=""></a>
+        <h1 class="text-5xl text-center font-bold text-white tracking-wide py-12">
+          Unique Trips for <br>
+          Adventures <br>
+          Travelers
+        </h1>
+        <a href="#contact-form" class="bg-accent text-bkg font-medium py-3 px-8 rounded-full border border-bkg focus:outline-none focus-visible:ring-4 ring-accent ring-offset-bkg ring-offset-2 hover:bg-accent/90 space-x-2">
+          <span class="uppercase tracking-wide">Book a Trip</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="96 184 32 200 32 56 96 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></polyline><polygon points="160 216 96 184 96 40 160 72 160 216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></polygon><polyline points="160 72 224 56 224 200 160 216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></polyline></svg>
+        </a>
       </div>
     </div>
     
